@@ -1,10 +1,10 @@
 ## Desenvolvendo um Sistema para Eleição Com Java Usando Quarkus Framework
 
-O projeto contra com três módulos:
+O projeto conta com três módulos:
 
-- Gerenciamento da eleição [ElectionManagement]()
-- App de Votação []()
-- App de resultado []()
+- Gerenciamento da eleição [election-management](election-management)
+- App de Votação [voting-app](voting-app)
+- App de resultado [result-app](result-app)
 
 ### 🛠️ As ferramentas utilizadas são:
 
@@ -49,3 +49,7 @@ Para subir essas imagens é só usar o comando `docker-compose up -d "nome do m�
 Também é possível subir as imagens através do script:
 
 `./cicd-blue-green-deployment "nome do módulo e versão"`
+
+Curso ministrado pelo especialista **Thiago Poiani**.
+
+[lab-quarkus](https://github.com/thpoiani/lab-quarkus)
